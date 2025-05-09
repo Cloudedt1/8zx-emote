@@ -298,7 +298,7 @@ end)
 
 -- Add new text label for "Clouded"
 local MadeByLabel = Instance.new("TextLabel")
-MadeByLabel.Text = "Script made by Clouded"
+MadeByLabel.Text = "Script made by Clouded And Phantom"
 MadeByLabel.TextScaled = true
 MadeByLabel.BackgroundColor3 = Color3.fromRGB(19, 89, 209)
 MadeByLabel.BackgroundTransparency = 0.3
@@ -729,7 +729,7 @@ LocalPlayer.CharacterAdded:Connect(CharacterAdded)
 -- Display notification first
 StarterGui:SetCore("SendNotification", {
     Title = "Notification";
-    Text = "Emote GUI made by Clouded";
+    Text = "Emote GUI made by Clouded And Phantom";
     Duration = 5;
 })
 
